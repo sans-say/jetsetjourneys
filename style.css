@@ -1,0 +1,253 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color:aliceblue;
+  box-sizing: border-box;
+}
+
+/*Top*/
+
+header {
+  background: linear-gradient(
+    to right,  #a0e4e3, #8cc5ea, #5fb6f8, #4867c3
+   );
+  padding:1px; 
+  height: fit-content
+}
+
+
+h1{
+  font-size: 70px;
+  color: #0a0e39;
+  font-family: 'Times New Roman', Times, serif;
+  
+}
+
+/*Navigation Bar*/
+
+nav {
+  padding: 4px;
+  border: 1px dashed navy ;
+}
+
+nav a {
+  color:  navy;
+  padding: 10px 20px;
+  font-size: 20px;
+}
+
+nav a:hover {
+  background-color: #b2bfd0;
+  color: #c11616;
+  width: 30%;
+}
+ 
+/*35%off*/
+
+marquee{
+  direction: right;
+  background-color: rgb(142, 203, 211);
+  color: #3f3473fa;
+  border-image-width: 400px;
+}
+
+button{
+  color: rgb(35, 52, 110);
+  background-color: #a9d2f2;
+  border-width: 2px;
+  border-radius: 10px;
+  height: 44px;
+}
+
+main {
+  padding: 20px;
+}
+
+.content {
+  margin-bottom: 20px;
+  background: rgb(5, 42, 93);
+  padding: 20px;
+  color: aliceblue;
+ 
+}
+
+.content h2 {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+/*About us*/
+
+#about{
+  background: no-repeat url(imageedit_1_4523788051.png);
+  background-size: cover;
+  padding: 40px; 
+  font-size:large;
+  font-weight: 200;
+}
+    
+/*Onboard experiences*/
+
+.containing{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap ;
+}
+
+.card{
+  background: #b5d9f1;
+  width: 270px;
+  margin: 20px;
+  border-radius: 15px;
+}
+
+.card-image {
+  height: 200px;
+  margin-bottom: 15px;
+  background-size:cover;
+  border-radius: 15px 15px 0px 0px;
+}
+
+.im-1{
+  background-image: url(cruiseroom.jpg);
+}
+
+.im-2{
+  background-image: url(top.jpg);
+}
+
+.im-3{
+  background-image: url(food.jpg);
+}
+
+.containing h2{
+  text-align: left;
+}
+
+.card h3{
+  padding: 10px;
+}
+
+.card p{
+  padding: 10px;
+}
+
+.card a{
+  background-color: navy;
+  color: white;
+  padding: 15px, 20px;
+  display: block;
+  text-align: center;
+  margin: 20px 40px;
+  border-radius: 5px;
+}
+
+.card:hover{
+  background-color: rgb(136, 135, 135) ;
+  color: #fff;
+  transform: scale(1.02);
+}
+
+/*Destinations*/
+
+.cover{
+  justify-content:center;
+  display: flex;
+  flex: wrap;
+  margin-top: 10px;
+  padding: 10px;
+}
+
+.box{
+  width: 600px;
+  justify-content: center;
+  margin: 15px;
+  border-radius: 5px;
+  background: #88d5e0;
+}
+
+.cover h3{
+  padding:10px;
+  text-align: center;
+  color: #0a2f42;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: large;
+}
+
+.cover p{
+  padding: 10px;
+  text-align: center;
+  color: #065256;
+}
+
+.cover a{
+  padding: 15px, 25px;
+  display: block;
+  text-align: end;
+  margin: 20px 40px;
+  color: #0a0e39;
+}
+
+#dest{
+  background: #10494c;
+  padding: 10px;
+  border-radius: 10px;
+  color:white;
+}
+
+/*Packages*/
+
+.ourpackages{
+  background-image:url(cc3.jpg);
+  padding: 25px;
+  margin: 20px;
+  font-size: 20px;
+  background-size: cover;
+  color:rgb(250, 250, 250);
+}
+
+ .ourpackages a{
+  color: #08a4bc;
+ }
+
+.ourpackages a:hover{
+  color: #809f99;
+
+}
+
+/*Contact Us*/
+
+.contact{
+  background:#f1f4d5;
+  padding: 20px;
+  margin: 20px;
+  
+}
+
+/*Regular*/
+
+section p {
+  margin-bottom: 10px;
+}
+
+a {
+  color: #062b40;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/*Footer*/
+
+footer {
+  background-color: #0d0369;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  height: 40px;
+}
+
+  
