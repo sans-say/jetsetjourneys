@@ -1,0 +1,106 @@
+<html>
+<head>
+<title>BOOKING FORM</title>
+<style>
+nav {
+ padding: 4px;
+ border: 1px dashed rgb(234, 236, 229) ;
+ text-align: center;
+}
+   
+nav a {
+color:  rgb(156, 206, 213);
+padding:20px;
+font-size: 20px;
+}
+   
+nav a:hover {
+background-color: #f3f5f6;
+color: #c11616;
+width: 30%;
+}
+
+body{
+background: no-repeat url(book.jpg) ;
+background-size: cover;
+text-align: center;
+color: aliceblue;
+}
+
+h1{
+text-align: center;
+color: aliceblue;
+}
+
+label{
+font-size: 20px;
+}
+
+</style>
+</head>
+<body>
+    <marquee style="text-color=#f75990;"><h1>BOOK YOUR CRUISE NOW!<h1></marquee><br>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="destinations.html">Destinations</a>
+        <a href="packages.html">Packages</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+    <br>
+
+<div class="form">
+<form>
+
+<h1>Please Fill Up The Form</h1><br><br>
+
+<label for="fname">First Name:</label>
+<input type="text" placeholder="Enter Your First Name" required> &nbsp; &nbsp; &nbsp; &nbsp; 
+<span>
+<label for="Lname">Last Name:</label>
+<input type="text" placeholder="Enter Your Last Name" required>  <br> <br> <br> <br>
+</span>
+<label for="email">Email:</label>
+<input type="text" placeholder="Enter Your Email Id" required> &nbsp; &nbsp; &nbsp; &nbsp; 
+
+<label for="phonenumber">Ph Number:</label>
+<input type="text" placeholder="Enter your Phone Number" required><br><br> <br> <br>
+
+<label for="age">Age:</label>
+<input type="number" placeholder="Enter Your Age" required> &nbsp; &nbsp; &nbsp; &nbsp; 
+
+<label for="gender">Gender:</label>
+<input type="radio" name="gender" value="Male">Male
+<input type="radio" name="gender" value="female">Female
+<input type="radio" name="gender" value="other">Other<br><br> <br> <br>
+
+<label for="arrival">Arrival:</label>
+<input type="date" required>&nbsp; &nbsp; &nbsp; &nbsp; 
+
+<label for="departure">Departure:</label>
+<input type="date" required><br><br> <br> <br>
+
+
+<label for="destination">Destination:</label>
+<select name="city">
+<option value="Mediterrnean">Mediterrnean</option>
+<option value="caribbean">Caribbean</option>
+<option value="alaska">Alaska</option>
+<option value="asia">Asia</option>
+<option value="Hawai">Hawai</option>
+<option value="south america">South America</option>
+<option value="africa">Africa</option>
+<option value="australia">Australia</option>
+</select>
+<br>
+<div><br></div>
+<div>
+<input type="submit" value="submit">
+</div>
+</form>
+</div>
+
+
+</body>
+</html>
